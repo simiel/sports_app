@@ -1,8 +1,5 @@
-import React from "react";
-import image1 from "../../images/5.jpg"
+import image1 from "../../images/5.jpg";
 
-
-import { Link } from "react-router-dom";
 import "./topbar.css";
 
 export default function Topbar() {
@@ -26,16 +23,11 @@ export default function Topbar() {
       <div className="topRight">
         <img src={image1} className="topImg" />
         <ul className="topList">
-           <li className="topListItem">
-             login
-           </li>
-           <li className="topListItem">
-             Sign Up
-           </li>
-          </ul>
-          <i className="topSearchIcon fas fa-search"></i>
+          <li className="topListItem">login</li>
+          <li className="topListItem">Sign Up</li>
+        </ul>
+        <i className="topSearchIcon fas fa-search"></i>
       </div>
     </div>
-
   );
 }
